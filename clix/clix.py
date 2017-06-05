@@ -1,5 +1,7 @@
+import os, sys
 import json
 import xerox
+
 from .gui import clipboard
 from sys import platform
 
@@ -74,4 +76,4 @@ elif platform=='win32':
 	if __name__ == "__main__":
 		main()
 	
-	
+
