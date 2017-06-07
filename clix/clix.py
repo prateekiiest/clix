@@ -6,7 +6,7 @@ from .gui import clipboard
 from sys import platform
 
 if platform == 'linux':
-	from .pyxhook import HookManag
+	from .pyxhook import HookManager
 
 	# clipboard
 	clips = []
